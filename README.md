@@ -1,4 +1,4 @@
-# Gradly - Student Management System
+# Gradly — Full Stack Content & User Management Platform
 
 Gradly is a full-stack student management web application built with Node.js, Express, MongoDB, and EJS. It helps students create accounts, manage profiles, upload media, reset passwords, and access a simple dashboard experience, while giving administrators a protected space to view and manage student records.
 
