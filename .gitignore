@@ -9,14 +9,5 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-uploads/images/profile/*
-uploads/videos/*
-!uploads/default.png
-!uploads/images/
-!uploads/images/profile/
-!uploads/images/profile/.gitkeep
-!uploads/videos/
-!uploads/videos/.gitkeep
-
 .DS_Store
 Thumbs.db

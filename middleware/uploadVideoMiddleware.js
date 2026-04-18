@@ -16,10 +16,10 @@ const storage = multer.diskStorage({
 const fileFilter = (req, file, cb) => {
     const allowedTypes = [
         "video/mp4",
-        "video/mkv",
-        "video/avi",
-        "video/mov",
-        "video/webm"
+        "video/x-matroska", // mkv
+        "video/x-msvideo",  // avi
+        "video/webm",
+        "video/quicktime"   
     ];
     if (allowedTypes.includes(file.mimetype)) {
         cb(null, true);
