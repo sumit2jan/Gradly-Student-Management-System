@@ -27,6 +27,10 @@ app.use((req, res, next) => {
     next();
 });
 
+app.get("/", (req, res) => {
+    res.redirect("/students");
+});
+
 // routes
 app.use("/students", require("./routes/student.routes"));
 app.use("/students", require("./routes/admin.routes"));
